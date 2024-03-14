@@ -6,7 +6,7 @@ int main() {
     int size = sizeof(originalArray) / sizeof(originalArray[0]);
     double* newArray = duplicateArray(originalArray, size);
     cout << "New array: ";
-    for (int i = 0; i < size; ++i) {
+    for (int i = 0; i < size; i++) {
         cout << newArray[i] << " ";
     }
     cout << endl;

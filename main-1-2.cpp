@@ -7,7 +7,7 @@ int main() {
     double value = 2.0;
     modifyArray(myArray, size, value);
     cout << "Modified array: ";
-    for (int i = 0; i < size; ++i) {
+    for (int i = 0; i < size; i++) {
         cout << myArray[i] << " ";
     }
     cout << endl;
